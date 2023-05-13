@@ -21,7 +21,8 @@ export default function Registration() {
     if(data.message === "success")
     {
       setIsLoading(false)
-      formik.resetForm()
+      navigate("/login")
+      // formik.resetForm()
       
     }
     else
